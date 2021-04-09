@@ -1,17 +1,17 @@
 :root {
-  --primary-color: #302ae6;
-  --secondary-color: #536390;
+  --primary-color: #232931;
+  --secondary-color: #393e46;
   --font-color: #424242;
-  --bg-color: #fff;
+  --bg-color: #4ecca3;
   --heading-color: #292922;
 }
 
 [data-theme="dark"] {
-  --primary-color: #9a97f3;
-  --secondary-color: #818cab;
-  --font-color: #e1e1ff;
-  --bg-color: #161625;
-  --heading-color: #818cab;
+  --primary-color: #eeeeee;
+  --secondary-color: #eeeeee;
+  --font-color: #4ecca3;
+  --bg-color: #232931;
+  --heading-color: #4ecca3;
 }
 
 body {
