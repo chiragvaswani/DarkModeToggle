@@ -135,8 +135,14 @@ p.author {
 }
 
 .card {
-  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  margin-top: 15px;
   height: 100px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
 }
 
 .project-directory {
@@ -145,4 +151,24 @@ p.author {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-decoration: none;
+}
+
+h1.heading {
+  text-align: center;
+  margin-top: 30vh;
+}
+
+hr {
+  margin-top: 100px;
+}
+
+.project-directory a:hover {
+  border: none;
+  transform: scale(1.01);
+  transition: transform 0.5s;
+}
+
+.project-directory a {
+  color: var(--bg-color);
 }
